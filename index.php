@@ -63,6 +63,8 @@ ob_start();
   $mpsp_slide_main_head_bar =get_option('mpsp_slide_main_head_bar');
   $mpsp_slide_custom_width = get_option('mpsp_slide_custom_width');
   $mpsp_slide_nav_button_position =get_option('mpsp_slide_nav_button_position');
+    $mpsp_slide_single =get_option('mpsp_slide_single');
+
 
 
   //POsts
@@ -217,6 +219,7 @@ function string_limit_words_mpsp($string, $word_limit)
               paginationSpeed : 1000,
               goToFirstSpeed : 2000,
               pagination : <?php echo $mpsp_slide_pagination; ?>,
+              singleItem : <?php echo $mpsp_slide_single; ?>,
               paginationNumbers :<?php echo $mpsp_slide_pagination_numbers; ?>,
 
         });
@@ -251,6 +254,7 @@ function mpsp_active_options_free(){
   add_option('mpsp_slide_main_head_bar','');
   add_option('mpsp_slide_nav_button_position','');
   add_option('mpsp_slide_custom_width','');
+  add_option('mpsp_slide_single','true');
 
   //Posts Options 
 
@@ -289,6 +293,8 @@ function mpsp_options_set_to_head_free(){
   $mpsp_posts_description_color =get_option('mpsp_posts_description_color');
   $mpsp_posts_bg_color =get_option('mpsp_posts_bg_color');
   $mpsp_slide_pagination_numbers =get_option('mpsp_slide_pagination_numbers');
+    $mpsp_slide_single =get_option('mpsp_slide_single');
+
 
 
 
@@ -309,6 +315,7 @@ function mpsp_register_options_mpsp_free(){
     register_setting('mpsp_options_group','mpsp_slide_pagination_numbers');
     register_setting('mpsp_options_group','mpsp_slide_main_head_bar');
     register_setting('mpsp_options_group','mpsp_slide_custom_width');
+    register_setting('mpsp_options_group','mpsp_slide_single');
 
 
     register_setting('mpsp_options_group','mpsp_posts_visible');
@@ -391,10 +398,10 @@ function mpsp_options_page_func_free(){
      <br>
 
     
-      <label for="mpsp_slide_le"> Carousel :</label>
-      <select name="mpsp_slide_le">
-        <option disabled value="false">Enable </option>
-        <option disabled value="true" selected>Disable</option>
+      <label for="mpsp_slide_single"> Carousel :</label>
+      <select name="mpsp_slide_single">
+        <option  value="false">Enable </option>
+        <option  value="true" selected>Disable</option>
 
       </select>
       <br>
@@ -607,6 +614,8 @@ function mpsp_options_page_func_free(){
   $mpsp_slide_nav_button_position = get_option('mpsp_slide_nav_button_position');
   $psp_slide_nav_button_color = get_option('psp_slide_nav_button_color');
   $mpsp_slide_custom_width = get_option('mpsp_slide_custom_width');
+  $mpsp_slide_single =get_option('mpsp_slide_single');
+
 
 
   //POsts
