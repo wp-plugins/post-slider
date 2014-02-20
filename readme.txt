@@ -20,15 +20,18 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 * Select how much posts to display and order them by popularity or date.
 * Entire slide links to post.
 * Fast support + Free Updates.
-* Mouse Draggabbe
+* Mouse Draggabble
 
-<a href="http://postsslider.blogspot.com/"> ---Premium Version--- </a>
+<a href="http://postsslider.blogspot.com/"> ----------------- Premium Version---------------- </a>
 
 * Pre-designed layouts.
 * Limit words of description (i.e excerpt).
 * Select what taxonomies to include in carousel (categories, tags, author e.t.c.).
 * More transition effects.
 * Gradients Supported.
+
+
+<h2> <a href="http://postsslider.blogspot.com/">To get premium version <span style="color:#ea6153; font-size:16px;"> Click Here</span></a></h2>
 
 
 
