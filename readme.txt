@@ -1,7 +1,7 @@
 ===Posts Slider===
 Contributors:Umar Bajwa
 Donate link: http://postsslider.blogspot.com/
-Tags:most recent, most recent posts, posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,under posts slider, 
+Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts, 
 Requires at least:2.1 
 Tested up to: 3.4
 Stable tag:1.0.1
@@ -46,29 +46,5 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 == Screenshots ==
 
 For Screenshots Visit: <a href="http://postsslider.blogspot.com">Screen Shots</a>
-
-
-
-
-
-
-
-== Changelog ==
-
-= 1.0.1 =
-
-* Bug Fixes
-* New icons
-* Premium Version
- 
- == Upgrade Notice ==
-<h3>1.0.1</h3>
-
-* Bug Fixes
-* New icons
-* Premium Version
-
-
- 
 
 

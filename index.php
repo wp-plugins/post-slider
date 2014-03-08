@@ -9,12 +9,38 @@ Version:1.0
 Author: Umar Bajwa
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Donate link: http://postsslider.blogspot.com/
-
---Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.--
-
+Donate link: http://postsslider.blogspot.com
 */
+
+
+
+/*
+ -------------- Buy Premium Version -----------------
+
+
+ 
+
+  * Buy the premium Version if you like the plugin.
+  * If you want to alter or use code please buy the premium version.
+  * A five star rating will be admired :) .
+
+
+
+
+
+ ----------------------------------------------------
+ */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
