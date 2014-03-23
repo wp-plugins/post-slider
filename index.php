@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin Name: Posts Slider Free
-Description: Creates  beautiful Slider of your Posts.
+Description: Creates  beautiful Slides of your Posts.
 Author: Umar Bajwa
 Plugin URI:http://postsslider.blogspot.com/
 Author URI :http://postsslider.blogspot.com/
@@ -30,18 +30,6 @@ Donate link: http://postsslider.blogspot.com
 
  ----------------------------------------------------
  */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -90,6 +78,7 @@ ob_start();
   $mpsp_slide_custom_width = get_option('mpsp_slide_custom_width');
   $mpsp_slide_nav_button_position =get_option('mpsp_slide_nav_button_position');
     $mpsp_slide_single =get_option('mpsp_slide_single');
+    $mpsp_slide_nav_button_color = get_option('mpsp_slide_nav_button_color');
 
 
 
@@ -106,13 +95,20 @@ ob_start();
 
 <?php echo $mpsp_slide_nav_button_position; ?>
 
+<style>
+.owl-buttons{
+  color:<?php echo get_option('mpsp_slide_nav_button_color');?>
+}
+
+</style>
 
 
 
 
 
 
-<div id="mpsp_wrapper" style= " background-color:<?php echo $mpsp_posts_bg_color;?>; padding:10px; margin:40px; border-radius:10px; width:<?php echo $mpsp_slide_custom_width; ?>;  <?php echo $mpsp_slide_gradient; ?>    ">
+
+<div id="mpsp_wrapper" style= " background-color:<?php echo $mpsp_posts_bg_color;?>; padding:10px; margin:40px; border-radius:5px; width:<?php echo $mpsp_slide_custom_width; ?>;  <?php echo $mpsp_slide_gradient; ?>    ">
 
 
     <h1 align="center"style="width:100%;
@@ -245,7 +241,7 @@ function string_limit_words_mpsp($string, $word_limit)
               paginationSpeed : 1000,
               goToFirstSpeed : 2000,
               pagination : <?php echo $mpsp_slide_pagination; ?>,
-              singleItem : <?php echo $mpsp_slide_single; ?>,
+              singleItem : true,
               paginationNumbers :<?php echo $mpsp_slide_pagination_numbers; ?>,
 
         });
@@ -280,7 +276,7 @@ function mpsp_active_options_free(){
   add_option('mpsp_slide_main_head_bar','');
   add_option('mpsp_slide_nav_button_position','');
   add_option('mpsp_slide_custom_width','');
-  add_option('mpsp_slide_single','true');
+  add_option('mpsp_slide_nav_button_color','');
 
   //Posts Options 
 
@@ -311,6 +307,7 @@ function mpsp_options_set_to_head_free(){
   $mpsp_slide_nav_button_position = get_option('mpsp_slide_nav_button_position');
   $psp_slide_nav_button_color = get_option('psp_slide_nav_button_color');
   $mpsp_slide_custom_width = get_option('mpsp_slide_custom_width');
+  $mpsp_slide_nav_button_color = get_option('mpsp_slide_nav_button_color');
 
   //POsts
   $mpsp_posts_visible = get_option('mpsp_posts_visible');
@@ -342,6 +339,7 @@ function mpsp_register_options_mpsp_free(){
     register_setting('mpsp_options_group','mpsp_slide_main_head_bar');
     register_setting('mpsp_options_group','mpsp_slide_custom_width');
     register_setting('mpsp_options_group','mpsp_slide_single');
+    register_setting('mpsp_options_group','mpsp_slide_nav_button_color');
 
 
     register_setting('mpsp_options_group','mpsp_posts_visible');
@@ -425,9 +423,9 @@ function mpsp_options_page_func_free(){
 
     
       <label for="mpsp_slide_single"> Carousel :</label>
-      <select name="mpsp_slide_single">
-        <option  value="false">Enable </option>
-        <option  value="true" selected>Disable</option>
+      <select  name="mpsp_slide_single">
+        <option disabled value="false">Enable </option>
+        <option disabled value="true" selected>Disable</option>
 
       </select>
       <br>
@@ -493,7 +491,7 @@ function mpsp_options_page_func_free(){
       <br>
       <br>
       <label for="mpsp_slide_nav_button_color">Navigation Buttons Color :</label>
-      <input disabled type="color" >
+      <input name="mpsp_slide_nav_button_color" type="color" value="<?php echo get_option('mpsp_slide_nav_button_color'); ?>">
       <br>
       <br>
       <label for="mpsp_slide_custom_width">Custom Slider Width :</label>
@@ -597,7 +595,7 @@ function mpsp_options_page_func_free(){
           <br>
           <br>
           <br>
-          <label for="scode">Insert this shortcode to your post to show Slider</label>
+          <label for="scode">Insert this shortcode into your posts or text widget to show Slider</label>
           <input type="text" name="scode" value="[mpsp_slider_free]" disabled  style="width:150px; background:#000; color:#fff;">
 
 
@@ -657,6 +655,7 @@ function mpsp_options_page_func_free(){
   $mpsp_posts_description_color =get_option('mpsp_posts_description_color');
   $mpsp_posts_bg_color =get_option('mpsp_posts_bg_color');
   $mpsp_posts_Desc_limit =get_option('mpsp_posts_Desc_limit');
+  $mpsp_slide_nav_button_color = get_option('mpsp_slide_nav_button_color');
 
 
 }
