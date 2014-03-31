@@ -443,16 +443,32 @@ function mpsp_options_page_func_free(){
 
       <label for="mpsp_slide_pagination"> Pagination :</label>
       <select name="mpsp_slide_pagination">
-        <option value="true">Enable</option>
-        <option value="false">Disable</option>
+        <option value="true"
+
+<?php selected('true',get_option('mpsp_slide_pagination')); ?>
+
+        >Enable</option>
+        <option value="false"
+
+<?php selected('false',get_option('mpsp_slide_pagination')); ?>
+
+        >Disable</option>
 
       </select>
       <br>
       <br>
       <label for="mpsp_slide_pagination_numbers">Pagination Numbers :</label>
       <select name="mpsp_slide_pagination_numbers">
-        <option value="true">Enable</option>
-        <option value="false">Disable</option>
+        <option value="true"
+
+<?php selected('true',get_option('mpsp_slide_pagination_numbers')); ?>
+
+        >Enable</option>
+        <option value="false"
+
+<?php selected('false',get_option('mpsp_slide_pagination_numbers')); ?>
+
+        >Disable</option>
 
       </select>
 
@@ -461,8 +477,16 @@ function mpsp_options_page_func_free(){
       <br>
       <label for="mpsp_slide_main_head_bar">Slider Title Bar :</label>
       <select name="mpsp_slide_main_head_bar">
-        <option value="">Enable</option>
-        <option value="none">Disable</option>
+        <option value=""
+
+<?php selected('',get_option('mpsp_slide_main_head_bar')); ?>
+
+        >Enable</option>
+        <option value="none"
+
+<?php selected('none',get_option('mpsp_slide_main_head_bar')); ?>
+
+        >Disable</option>
 
       </select>
       <br>
@@ -476,8 +500,17 @@ function mpsp_options_page_func_free(){
       <br>
       <label for="mpsp_slide_navigation">Navigation Buttons</label>
       <select name="mpsp_slide_navigation">
-        <option value="true">Enable</option>
-        <option value="false">Disable</option>
+        <option value="true"
+
+<?php selected('true',get_option('mpsp_slide_navigation')); ?>
+
+        >Enable</option>
+        <option value="false"
+
+<?php selected('false',get_option('mpsp_slide_navigation')); ?>
+
+
+        >Disable</option>
 
       </select>
       <br>
@@ -485,7 +518,9 @@ function mpsp_options_page_func_free(){
 
             <label for="mpsp_slide_nav_button_position">Navigation Buttons Position :</label>
       <select name="mpsp_slide_nav_button_position">
-        <option disabled value="">Default</option>        
+        <option disabled value="">Default</option>
+        <option disabled> Left </option>
+        <option disabled> Right </option>        
 
       </select>
       <br>
