@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: Posts Slider Free
+Plugin Name: Posts Slider Free Testing
 Description: Creates  beautiful Slides of your Posts.
 Author: Umar Bajwa
 Plugin URI:http://postsslider.blogspot.com/
@@ -93,7 +93,6 @@ ob_start();
 
 	?>
 
-<?php echo $mpsp_slide_nav_button_position; ?>
 
 <style>
 .owl-buttons{
@@ -194,7 +193,7 @@ function string_limit_words_mpsp($string, $word_limit)
          <?php
 
                $excerpt = get_the_excerpt(__('(more…)'));
-              echo string_limit_words_mpsp($excerpt,10000);
+              echo string_limit_words_mpsp($excerpt,500);
             ?> </p>
 
             
@@ -549,13 +548,19 @@ function mpsp_options_page_func_free(){
       <br>
       <br>
       <label for="mpsp_posts_Desc_limit">Description Words Limit :</label>
-      <input disabled type="number" name="mpsp_posts_Desc_limit" >
+      <input disabled type="text" name="mpsp_posts_Desc_limit" value="max">
       <br>
       <br>
       <label for="mpsp_posts_order">Posts Order :</label>
       <select name="mpsp_posts_order">
-        <option value="ASC">Ascending</option>
-        <option value="DESC">Descending</option>
+        <option value="ASC"
+<?php selected('ASC',get_option('mpsp_posts_order')); ?>
+
+        >Ascending</option>
+        <option value="DESC"
+<?php selected('DESC',get_option('mpsp_posts_order')); ?>
+
+        >Descending</option>
 
       </select>
       <br>
@@ -620,8 +625,8 @@ function mpsp_options_page_func_free(){
           <br>
 
       <label disabled for="mpsp_slide_layout_custom"><img src="<?php echo plugins_url('img/layout-2.png',__FILE__); ?>" width="150px" height"150px"></label>
-      <input disabled type="radio" name="mpsp_slide_layout_custom"
-      style="width:15px;" selected >
+      <input  type="radio" name="mpsp_slide_layout_custom"
+      style="width:15px;" checked >
           <br>
           <label disabled for="mpsp_slide_layout_custom"><img src="<?php echo plugins_url('img/layout-3.png',__FILE__); ?>" width="150px" height"150px"></label>
       <input disabled type="radio" name="mpsp_slide_layout_custom"
@@ -647,6 +652,8 @@ function mpsp_options_page_func_free(){
     </div>
     <div style="position:relative; top:-105px; left:-39px;"> 
     <?php submit_button();?></div>
+
+   <a href="http://postsslider.blogspot.com/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features. </i></p></a>
 </form>
 
 
