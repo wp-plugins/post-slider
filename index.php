@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: Posts Slider Free Testing
+Plugin Name: Posts Slider Free 
 Description: Creates  beautiful Slides of your Posts.
 Author: Umar Bajwa
 Plugin URI:http://postsslider.blogspot.com/
