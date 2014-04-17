@@ -3,7 +3,7 @@ Contributors:Umar Bajwa
 Donate link: http://postsslider.blogspot.com/
 Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts, 
 Requires at least:2.1 
-Tested up to: 3.8
+Tested up to: 3.9
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
