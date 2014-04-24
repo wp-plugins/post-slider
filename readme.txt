@@ -1,16 +1,15 @@
 ===Posts Slider===
 Contributors:Umar Bajwa
 Donate link: http://postsslider.blogspot.com/
-Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts, 
+Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts,recommended posts,content slider,recent posts widget,recent posts slider
 Requires at least:2.1 
 Tested up to: 3.9
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Posts Slider is a WordPress posts content slider plugin with touch for mobile devices. You can slide custom post types with custom taxonomies.Carousel + single slide slider.
-
+Posts Slider is a WordPress posts content slider plugin with touch for mobile devices. Posts slider displays your blog's recent posts using beautiful slider.
 ==Description==
-Posts slider is light weight touch supported, responsive posts content slider plugin.Manage your posts to show in slider with custom taxanomies (categories, tags,authors e.t.c), With pre-designed layouts to save your time.Simple and easy to use no coding skills required.
+Posts slider is light weight touch supported, responsive posts content slider plugin.Manage your posts to show in slider with custom taxanomies (categories, tags,authors e.t.c), With pre-designed layouts to save your time. Simple and easy to use no coding skills required.
 
 
 * Responsive touch slider.

@@ -6,7 +6,6 @@ Author: Umar Bajwa
 Plugin URI:http://postsslider.blogspot.com/
 Author URI :http://postsslider.blogspot.com/
 Version:1.0
-Author: Umar Bajwa
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://postsslider.blogspot.com
@@ -653,7 +652,7 @@ function mpsp_options_page_func_free(){
     <div style="position:relative; top:-105px; left:-39px;"> 
     <?php submit_button();?></div>
 
-   <a href="http://postsslider.blogspot.com/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features. </i></p></a>
+   <a href="http://postsslider.blogspot.com/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features + support. </i></p></a>
 </form>
 
 
