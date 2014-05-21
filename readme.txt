@@ -1,6 +1,7 @@
 ===Posts Slider===
-Contributors:Umar Bajwa
-Donate link: http://postsslider.blogspot.com/
+Contributors:umarbajwa
+Author:umarbajwa
+Donate link: http://web-settler.com/posts-slider/
 Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts,recommended posts,content slider,recent posts widget,recent posts slider
 Requires at least:2.1 
 Tested up to: 3.9
@@ -20,7 +21,7 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 * Fast support + Free Updates.
 * Mouse Draggabble
 
-<a href="http://postsslider.blogspot.com/"> ----------------- Premium Version---------------- </a>
+<a href="http://web-settler.com/posts-slider/"> ----------------- Premium Version---------------- </a>
 
 * Pre-designed layouts.
 * Limit words of description (i.e excerpt).
@@ -29,7 +30,7 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 * Gradients Supported.
 
 
-<h2><a href="http://postsslider.blogspot.com/" style="font-size:22px;">To get premium version <span style="color:#ea6153; font-size:16px;"> Click Here</span></a></h2>
+<h2><a href="http://web-settler.com/posts-slider/" style="font-size:22px;">To get premium version <span style="color:#ea6153; font-size:16px;"> Click Here</span></a></h2>
 
 
 
@@ -43,6 +44,6 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 
 == Screenshots ==
 
-For Screenshots Visit: <a href="http://postsslider.blogspot.com">Screen Shots</a>
+For Screenshots Visit: <a href="http://web-settler.com/posts-slider/">Screen Shots</a>
 
 

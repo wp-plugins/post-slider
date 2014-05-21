@@ -2,13 +2,13 @@
 /*
 Plugin Name: Posts Slider Free 
 Description: Creates  beautiful Slides of your Posts.
-Author: Umar Bajwa
-Plugin URI:http://postsslider.blogspot.com/
-Author URI :http://postsslider.blogspot.com/
+Author:umarbajwa
+Plugin URI:http://web-settler.com/posts-slider/
+Author URI :http://web-settler.com/
 Version:1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Donate link: http://postsslider.blogspot.com
+Donate link:http://web-settler.com/posts-slider/
 */
 
 
@@ -368,7 +368,7 @@ function mpsp_options_page_func_free(){
 
   
 
-<a href="http://postsslider.blogspot.com/" target="_blank"><img src="<?php echo plugins_url('img/banner.png',__FILE__); ?>" style="margin:20px; width:950px; height:350px;" align="center"></a>
+<a href="http://web-settler.com/posts-slider/" target="_blank"><img src="<?php echo plugins_url('img/banner.png',__FILE__); ?>" style="margin:20px; width:950px; height:350px;" align="center"></a>
 
    <div class="formLayout">
     <h3 class="slide_hed">Slider Settings</h3>
@@ -652,7 +652,7 @@ function mpsp_options_page_func_free(){
     <div style="position:relative; top:-105px; left:-39px;"> 
     <?php submit_button();?></div>
 
-   <a href="http://postsslider.blogspot.com/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features + support. </i></p></a>
+   <a href="http://web-settler.com/posts-slider/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features + support. </i></p></a>
 </form>
 
 
