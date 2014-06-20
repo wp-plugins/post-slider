@@ -3,8 +3,9 @@ Contributors:umarbajwa
 Author:umarbajwa
 Donate link: http://web-settler.com/posts-slider/
 Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts,recommended posts,content slider,recent posts widget,recent posts slider
-Requires at least:2.1 
-Tested up to: 3.9
+Requires at least:2.1
+Stable tag :1.2 
+Tested up to: 3.9.1
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +20,7 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 * Select how much posts to display and order them by popularity or date.
 * Entire slide links to post.
 * Fast support + Free Updates.
-* Mouse Draggabble
+* Mouse Draggable
 
 <a href="http://web-settler.com/posts-slider/"> ----------------- Premium Version---------------- </a>
 
@@ -38,6 +39,8 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 
  == Installation ==
 * Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+
+* Use the shortcode in your posts or text widgets to show the slider.
 
 
 
