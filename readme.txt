@@ -1,5 +1,5 @@
 ===Posts Slider===
-Contributors:umarbajwa
+Contributors:umarbajwa,websettler
 Author:umarbajwa
 Donate link: http://web-settler.com/posts-slider/
 Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts,recommended posts,content slider,recent posts widget,recent posts slider
@@ -26,6 +26,7 @@ Posts slider is light weight touch supported, responsive posts content slider pl
 
 * Pre-designed layouts.
 * Limit words of description (i.e excerpt).
+* <strong>All default and custom post types are supported.</strong>
 * Select what taxonomies to include in carousel (categories, tags, author e.t.c.).
 * More transition effects.
 * Gradients Supported.
