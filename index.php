@@ -180,14 +180,8 @@ function string_limit_words_mpsp($string, $word_limit)
 
                echo get_the_post_thumbnail($page->ID,'medium');
               }
-                else {
-                   
-                
-                       
-              }
-          ?>
-       
-        <?php  ?> <!-- Post Featured Image --></div>
+          ?>  
+      <!-- Post Featured Image --></div>
       <p style="margin:5px; text-decoration:none; color:<?php echo $mpsp_posts_description_color;?>;">
          <?php
 
@@ -543,32 +537,6 @@ function mpsp_options_page_func_free(){
       <br>
       <br>
 
-       <label for="cs_post_types">Select Post Type :</label>
-
-     <?php 
-     $post_types = get_post_types('', 'names');
-
-      echo "<select name='mpsp_post_types'>
-      <option value='' selected( 'select', get_option('mpsp_post_types') );>Select</option>
-      ";
-
-
-    foreach($post_types as $post_type) {
-       ?>
-
-      <option disabled value='<?php echo $post_type;?>' <?php selected($post_type, get_option('mpsp_post_types') ); ?> ><?php echo $post_type;?> </option>
-      <?php
-     }
-
-      echo "</select>";
-
-     ?>
-      <br>
-      <br>
-
-
-
-
       <label for="mpsp_posts_visible">No. of Posts In Slider :</label>
       <input type="number" max="10" name="mpsp_posts_visible" value="<?php echo get_option('mpsp_posts_visible'); ?>">
       <br>
@@ -594,7 +562,7 @@ function mpsp_options_page_func_free(){
 
       <label for="mpsp_posts_orderby"  title="Sort retrieved posts by.">Posts Order By :</label >
       <select  name="mpsp_posts_orderby">
-        <option disabled selected value="">Choose..</option>
+        <option disabled selected value="">Default</option>
         <option disabled value="none">None</option>
         <option disabled value="rand">Random</option>
         <option disabled value="id">ID</option>

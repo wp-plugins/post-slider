@@ -2,7 +2,7 @@
 Contributors:umarbajwa,websettler
 Author:umarbajwa
 Donate link: http://web-settler.com/posts-slider/
-Tags:post slider,recent posts, banner rotator, best carousel slider, best post slider, best responsive slider, best slideshow, best slideshow plugin, bxslider, carousel slider, featured thumbnail, image, image slider, image slideshow, images, logo scroller, news slider, Post, post slider, posts, recent post slider, responsive carousel, responsive carousel slider, responsive slider, responsive slideshow, showcase, sidebar slideshow, slider, slideshow, testimonial scroller, thumbnail, thumbnail slider, ticker, wordpress slideshow
+Tags:recent posts,posts, posts slider, recent, recent post, recent posts, scroll, slider,Posts slider,post slider,get posts,excerpt,slider,post slider plugin,royal slider, nivo slider, wow slider, owl slider,sticky,popular posts,post slider,recent posts, banner rotator, best carousel slider, best post slider, best responsive slider, best slideshow, best slideshow plugin, bxslider, carousel slider, featured thumbnail, image, image slider, image slideshow, images, logo scroller, news slider, Post, post slider, posts, recent post slider, responsive carousel, responsive carousel slider, responsive slider, responsive slideshow, showcase, sidebar slideshow, slider, slideshow, testimonial scroller, thumbnail, thumbnail slider, ticker, wordpress slideshow
 Requires at least:2.1
 Stable tag :1.2 
 Tested up to: 3.9.1
