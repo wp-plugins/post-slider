@@ -24,10 +24,6 @@ Donate link:http://web-settler.com/posts-slider/
   * A five star rating will be admired :) .
 
 
-
-
-
- ----------------------------------------------------
  */
 
 
@@ -630,7 +626,7 @@ function mpsp_options_page_func_free(){
           <br>
           <br>
           <label for="scode">Insert this shortcode into your posts or text widget to show Slider</label>
-          <input type="text" name="scode" value="[mpsp_slider_free]" disabled  style="width:150px; background:#000; color:#fff;">
+          <input type="text" name="scode" value="[mpsp_slider_free]" disabled  style="width:150px; background:#000; color:#e3e3e3;">
 
 
 
@@ -647,7 +643,7 @@ function mpsp_options_page_func_free(){
     <div style="position:relative; top:-105px; left:-39px;"> 
     <?php submit_button();?></div>
 
-   <a href="http://web-settler.com/posts-slider/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features + support. </i></p></a>
+   <a href="http://web-settler.com/posts-slider/" target="_blank"> <p style="font-size:15px;left:0;position:absolute;margin-top:-130px;"><span style="color:red;">Note :</span> <i>Premium Version includes all the disabled features + fast support. </i></p></a>
 </form>
 
 
