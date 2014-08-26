@@ -1,4 +1,4 @@
-===Posts Slider===
+===Removed Slider===
 Contributors:umarbajwa,websettler
 Author:umarbajwa
 Donate link: http://web-settler.com/posts-slider/
